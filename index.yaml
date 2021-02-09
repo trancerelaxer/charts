@@ -1,0 +1,65 @@
+apiVersion: v1
+entries:
+  keydb-cluster:
+  - apiVersion: v1
+    appVersion: 6.0.19
+    created: "2021-02-09T22:00:16.345328+02:00"
+    description: Highly available Kubernetes implementation of KeyDB Cluster
+    digest: e25c5c2776f23c80baf022eba7918ce464673c2a40d225856693fa40a835a5fe
+    home: https://keydb.dev/
+    icon: https://commons.bmstu.wiki/images/a/a3/Keydbnew.png
+    keywords:
+    - keydb
+    - keyvalue
+    - database
+    - cluster
+    maintainers:
+    - email: yuriyku@icloud.com
+      name: yuriyku
+    name: keydb-cluster
+    sources:
+    - https://keydb.dev/downloads.html
+    urls:
+    - https://github.com/trancerelaxer/charts/incubator/keydb-cluster-0.0.1.tgz
+    version: 0.0.1
+  redis-cluster:
+  - apiVersion: v1
+    appVersion: 6.0.10
+    created: "2021-02-09T22:00:16.346362+02:00"
+    description: Highly available Kubernetes implementation of Redis Cluster
+    digest: 93b3318e214dddeadba6e657006973c26d8821f33d2e521b4b4a0a68e5fb9e9d
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    - cluster
+    maintainers:
+    - email: yuriyku@icloud.com
+      name: yuriyku
+    name: redis-cluster
+    sources:
+    - https://redis.io/download
+    urls:
+    - https://github.com/trancerelaxer/charts/incubator/redis-cluster-0.0.1.tgz
+    version: 0.0.1
+  redis-twemproxy:
+  - apiVersion: v1
+    appVersion: 6.0.10
+    created: "2021-02-09T22:00:16.347128+02:00"
+    description: Twemproxy Cluster
+    digest: 975b699598d89825a892b56dfe00a1286ff2ff7a98e8f116ac05eca081d9fac7
+    home: https://www.bestday.com/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - twmeproxy
+    maintainers:
+    - email: jose.barrales@bestday.com
+      name: jose barrales
+    name: redis-twemproxy
+    urls:
+    - https://github.com/trancerelaxer/charts/incubator/redis-twemproxy-0.4.0.tgz
+    version: 0.4.0
+generated: "2021-02-09T22:00:16.344132+02:00"
