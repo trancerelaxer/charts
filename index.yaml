@@ -3,9 +3,9 @@ entries:
   keydb-cluster:
   - apiVersion: v1
     appVersion: 6.0.19
-    created: "2021-02-09T22:00:16.345328+02:00"
+    created: "2021-02-09T22:30:01.259867+02:00"
     description: Highly available Kubernetes implementation of KeyDB Cluster
-    digest: e25c5c2776f23c80baf022eba7918ce464673c2a40d225856693fa40a835a5fe
+    digest: 41521c1662e3c297a9ab97856364aa01295f252513517ce4348d1a288ed0ca3a
     home: https://keydb.dev/
     icon: https://commons.bmstu.wiki/images/a/a3/Keydbnew.png
     keywords:
@@ -20,14 +20,14 @@ entries:
     sources:
     - https://keydb.dev/downloads.html
     urls:
-    - https://github.com/trancerelaxer/charts/incubator/keydb-cluster-0.0.1.tgz
+    - https://trancerelaxer.github.io/charts/incubator/keydb-cluster-0.0.1.tgz
     version: 0.0.1
   redis-cluster:
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-09T22:00:16.346362+02:00"
+    created: "2021-02-09T22:30:01.260576+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
-    digest: 93b3318e214dddeadba6e657006973c26d8821f33d2e521b4b4a0a68e5fb9e9d
+    digest: acabae73fc37bbe058c33a27e7255557eec98b8eb460b538111a11adec084220
     home: http://redis.io/
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
     keywords:
@@ -42,24 +42,23 @@ entries:
     sources:
     - https://redis.io/download
     urls:
-    - https://github.com/trancerelaxer/charts/incubator/redis-cluster-0.0.1.tgz
+    - https://trancerelaxer.github.io/charts/incubator/redis-cluster-0.0.1.tgz
     version: 0.0.1
   redis-twemproxy:
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-09T22:00:16.347128+02:00"
+    created: "2021-02-09T22:30:01.261208+02:00"
     description: Twemproxy Cluster
-    digest: 975b699598d89825a892b56dfe00a1286ff2ff7a98e8f116ac05eca081d9fac7
-    home: https://www.bestday.com/
+    digest: ecd0adbe1a44ec8de72eb267e1667e81f982994954e606ebf211292a2fd3cf68
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
     keywords:
     - redis
     - twmeproxy
     maintainers:
-    - email: jose.barrales@bestday.com
-      name: jose barrales
+    - email: yuriyku@icloud.com
+      name: yuriyku
     name: redis-twemproxy
     urls:
-    - https://github.com/trancerelaxer/charts/incubator/redis-twemproxy-0.4.0.tgz
+    - https://trancerelaxer.github.io/charts/incubator/redis-twemproxy-0.4.0.tgz
     version: 0.4.0
-generated: "2021-02-09T22:00:16.344132+02:00"
+generated: "2021-02-09T22:30:01.258867+02:00"
