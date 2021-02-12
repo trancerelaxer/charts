@@ -3,9 +3,9 @@ entries:
   keydb-cluster:
   - apiVersion: v1
     appVersion: 6.0.19
-    created: "2021-02-12T20:47:55.981173+02:00"
+    created: "2021-02-12T20:55:35.723048+02:00"
     description: Highly available Kubernetes implementation of KeyDB Cluster
-    digest: 20826fea6cee26863ac10dc7145d2b4245a7ba37282fc7543ef41d1b2f07c2b4
+    digest: d6f504767c4d1b1d05442e5eda3fa73c5bea4e5b4ab23c4d095fdc16239bd909
     home: https://keydb.dev/
     icon: https://commons.bmstu.wiki/images/a/a3/Keydbnew.png
     keywords:
@@ -24,7 +24,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: 6.0.19
-    created: "2021-02-12T20:47:55.980617+02:00"
+    created: "2021-02-12T20:55:35.722334+02:00"
     description: Highly available Kubernetes implementation of KeyDB Cluster
     digest: 3dfde563c00f897ee58e09ae1223ece3c1a52e6b675759744a442910f9996600
     home: https://keydb.dev/
@@ -45,7 +45,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: 6.0.19
-    created: "2021-02-12T20:47:55.979327+02:00"
+    created: "2021-02-12T20:55:35.71935+02:00"
     description: Highly available Kubernetes implementation of KeyDB Cluster
     digest: 41521c1662e3c297a9ab97856364aa01295f252513517ce4348d1a288ed0ca3a
     home: https://keydb.dev/
@@ -67,9 +67,30 @@ entries:
   redis-cluster:
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-12T20:47:55.989242+02:00"
+    created: "2021-02-12T20:55:35.731431+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
-    digest: e51618c20ad84e4ddeba7e39c1363ce1287b9b195f50f21a0ad1a0d823974618
+    digest: da6b2baa87fd260129a397d16c64b4b23255dc3d7d28b0e3dc873c7cd5100471
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    - cluster
+    maintainers:
+    - email: yuriyku@icloud.com
+      name: yuriyku
+    name: redis-cluster
+    sources:
+    - https://redis.io/download
+    urls:
+    - https://trancerelaxer.github.io/charts/incubator/redis-cluster-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v1
+    appVersion: 6.0.10
+    created: "2021-02-12T20:55:35.729985+02:00"
+    description: Highly available Kubernetes implementation of Redis Cluster
+    digest: 3697757e62ab3171a2cc9b4b4781fc9fda14331295e3d9793fdf16811ba8a2da
     home: http://redis.io/
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
     keywords:
@@ -88,7 +109,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-12T20:47:55.986046+02:00"
+    created: "2021-02-12T20:55:35.729247+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: ade0df25dcde2f047a4ee2bb2d7123a51ee4c11152973f2e3b9dc55a8f019b6f
     home: http://redis.io/
@@ -109,7 +130,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-12T20:47:55.984709+02:00"
+    created: "2021-02-12T20:55:35.727455+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: b6216f1135062b52c086b79da062c3a452e2a36808eaea46ed8954a704f2e247
     home: http://redis.io/
@@ -130,7 +151,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-12T20:47:55.983569+02:00"
+    created: "2021-02-12T20:55:35.725999+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: 9c63fe1e9977cbacf1cf143fc4257df415ba5b26578da4d99ac750bf9c74b416
     home: http://redis.io/
@@ -151,7 +172,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-12T20:47:55.982367+02:00"
+    created: "2021-02-12T20:55:35.724446+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: 8871bc28b7bde8a08c972ae3819599836f42627923871c2f7c298685920e3789
     home: http://redis.io/
@@ -173,9 +194,9 @@ entries:
   redis-twemproxy:
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-12T20:47:55.990209+02:00"
+    created: "2021-02-12T20:55:35.732769+02:00"
     description: Twemproxy Cluster
-    digest: 33233eefa224962e63041f0b0dffc2607dc7ae671e4893107a0e97d303843a84
+    digest: 0652330d3885df2504fbb7b0a47a00d75fb4907eba72a3d880a541ef0774aa86
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
     keywords:
     - redis
@@ -187,4 +208,4 @@ entries:
     urls:
     - https://trancerelaxer.github.io/charts/incubator/redis-twemproxy-0.4.0.tgz
     version: 0.4.0
-generated: "2021-02-12T20:47:55.97811+02:00"
+generated: "2021-02-12T20:55:35.71758+02:00"
