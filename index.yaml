@@ -3,7 +3,28 @@ entries:
   keydb-cluster:
   - apiVersion: v1
     appVersion: 6.0.19
-    created: "2021-02-17T11:17:28.35327+02:00"
+    created: "2021-02-17T12:47:10.697036+02:00"
+    description: Highly available Kubernetes implementation of KeyDB Cluster
+    digest: 59a9ba09007cf4b24025614203beac41f7b5e61e4a737714c8604e0dbf6098e8
+    home: https://keydb.dev/
+    icon: https://commons.bmstu.wiki/images/a/a3/Keydbnew.png
+    keywords:
+    - keydb
+    - keyvalue
+    - database
+    - cluster
+    maintainers:
+    - email: yuriyku@icloud.com
+      name: yuriyku
+    name: keydb-cluster
+    sources:
+    - https://keydb.dev/downloads.html
+    urls:
+    - https://trancerelaxer.github.io/charts/incubator/keydb-cluster-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v1
+    appVersion: 6.0.19
+    created: "2021-02-17T12:47:10.696277+02:00"
     description: Highly available Kubernetes implementation of KeyDB Cluster
     digest: ec1ae1d0dbaf1a2edb57a8314f71d6b1f7a1db331f50133dacb295626d0f5e43
     home: https://keydb.dev/
@@ -24,7 +45,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 6.0.19
-    created: "2021-02-17T11:17:28.352486+02:00"
+    created: "2021-02-17T12:47:10.69501+02:00"
     description: Highly available Kubernetes implementation of KeyDB Cluster
     digest: b0b45c1c21ca56c1356e468f67657c90b70d4bcd81262480c64ee1b65a096724
     home: https://keydb.dev/
@@ -45,7 +66,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: 6.0.19
-    created: "2021-02-17T11:17:28.350712+02:00"
+    created: "2021-02-17T12:47:10.693647+02:00"
     description: Highly available Kubernetes implementation of KeyDB Cluster
     digest: 3dfde563c00f897ee58e09ae1223ece3c1a52e6b675759744a442910f9996600
     home: https://keydb.dev/
@@ -66,7 +87,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: 6.0.19
-    created: "2021-02-17T11:17:28.34723+02:00"
+    created: "2021-02-17T12:47:10.692036+02:00"
     description: Highly available Kubernetes implementation of KeyDB Cluster
     digest: 41521c1662e3c297a9ab97856364aa01295f252513517ce4348d1a288ed0ca3a
     home: https://keydb.dev/
@@ -88,7 +109,28 @@ entries:
   redis-cluster:
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-17T11:17:28.363577+02:00"
+    created: "2021-02-17T12:47:10.706962+02:00"
+    description: Highly available Kubernetes implementation of Redis Cluster
+    digest: a345f155e7c9bca1e8abdea539610c4ea0a0f588d7fddb979887180eff06d700
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    - cluster
+    maintainers:
+    - email: yuriyku@icloud.com
+      name: yuriyku
+    name: redis-cluster
+    sources:
+    - https://redis.io/download
+    urls:
+    - https://trancerelaxer.github.io/charts/incubator/redis-cluster-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v1
+    appVersion: 6.0.10
+    created: "2021-02-17T12:47:10.706292+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: 52a7290d9432460879d79f05e1934a6f81c5e0f9df299d7024c27caee3917677
     home: http://redis.io/
@@ -109,7 +151,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-17T11:17:28.362826+02:00"
+    created: "2021-02-17T12:47:10.705075+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: 73cc8bb0faecc1bea0219aa683cd0fc7c38d93b7f178631489d7556c7990c185
     home: http://redis.io/
@@ -130,7 +172,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-17T11:17:28.360627+02:00"
+    created: "2021-02-17T12:47:10.703836+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: 3697757e62ab3171a2cc9b4b4781fc9fda14331295e3d9793fdf16811ba8a2da
     home: http://redis.io/
@@ -151,7 +193,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-17T11:17:28.35955+02:00"
+    created: "2021-02-17T12:47:10.702961+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: ade0df25dcde2f047a4ee2bb2d7123a51ee4c11152973f2e3b9dc55a8f019b6f
     home: http://redis.io/
@@ -172,7 +214,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-17T11:17:28.357998+02:00"
+    created: "2021-02-17T12:47:10.701077+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: b6216f1135062b52c086b79da062c3a452e2a36808eaea46ed8954a704f2e247
     home: http://redis.io/
@@ -193,7 +235,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-17T11:17:28.356332+02:00"
+    created: "2021-02-17T12:47:10.699583+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: 9c63fe1e9977cbacf1cf143fc4257df415ba5b26578da4d99ac750bf9c74b416
     home: http://redis.io/
@@ -214,7 +256,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-17T11:17:28.354832+02:00"
+    created: "2021-02-17T12:47:10.698331+02:00"
     description: Highly available Kubernetes implementation of Redis Cluster
     digest: 8871bc28b7bde8a08c972ae3819599836f42627923871c2f7c298685920e3789
     home: http://redis.io/
@@ -236,9 +278,9 @@ entries:
   redis-twemproxy:
   - apiVersion: v1
     appVersion: 6.0.10
-    created: "2021-02-17T11:17:28.364155+02:00"
+    created: "2021-02-17T12:47:10.707507+02:00"
     description: Twemproxy Cluster
-    digest: eb442d91d119c19b322cae959efa47ff3e4263f9cafab53c791f08afb819b33e
+    digest: d0f2697c2e4c539e03a1b71c4d25d857049cfc60528808f643100915233a3c9e
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
     keywords:
     - redis
@@ -250,4 +292,4 @@ entries:
     urls:
     - https://trancerelaxer.github.io/charts/incubator/redis-twemproxy-0.4.0.tgz
     version: 0.4.0
-generated: "2021-02-17T11:17:28.345249+02:00"
+generated: "2021-02-17T12:47:10.690282+02:00"
